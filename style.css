@@ -1,0 +1,56 @@
+@keyframes skittlez {
+0%{background: linear-gradient(to right, red, orange, yellow, green, blue, purple)}
+16.6666666667%{background: linear-gradient(to right, orange, yellow, green, blue, purple, red)}
+33.3333333334%{background: linear-gradient(to right, yellow, green, blue, purple, red, orange)}
+50.0000000001%{background: linear-gradient(to right, green, blue, purple, red, orange, yellow)}
+66.6666666668%{background: linear-gradient(to right, blue, purple, red, orange, yellow, green)}
+83.3333333335%{background: linear-gradient(to right, purple, red, orange, yellow, green, blue)}
+100%{background: linear-gradient(to right, red, orange, yellow, green, blue, purple)}
+}
+
+@keyframes zelttiks {
+0%{background: radial-gradient(red, orange, yellow, green, blue, purple)}
+16.6666666667%{background: radial-gradient(orange, yellow, green, blue, purple, red)}
+33.3333333334%{background: radial-gradient(yellow, green, blue, purple, red, orange)}
+50.0000000001%{background: radial-gradient(green, blue, purple, red, orange, yellow)}
+66.6666666668%{background: radial-gradient(blue, purple, red, orange, yellow, green)}
+83.3333333335%{background: radial-gradient(purple, red, orange, yellow, green, blue)}
+100%{background: radial-gradient(red, orange, yellow, green, blue, purple)}
+}
+
+@keyframes bye {
+0%{background-color: red}
+16.6666666667%{background-color: orange}
+33.3333333334%{background-color: yellow}
+50.0000000001%{background-color: green}
+66.6666666668%{background-color: blue}
+83.3333333335%{background-color: purple}
+100%{background-color: red}
+}
+
+body {
+  background-image: url("https://i.pinimg.com/736x/95/f5/a4/95f5a43831a777168623eb83a12340b4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  animation-name: skittlez;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.class {
+  text-align: center;
+  height: 200px;
+  animation-name: zelttiks;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+
+.class2 {
+  text-align: center;
+  horizontal-align: center;
+  height: 200px;
+  animation-name: bye;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
